@@ -1,0 +1,43 @@
+.home-main {
+  margin: 30px 50px;
+
+  .home-title {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .content {
+    border: 1px solid #646464;
+    padding: 30px 20px;
+    width: 350px;
+    margin: 50px auto;
+    .btn-container {
+      margin: 20px auto;
+      .save-btn {
+        background-color: green;
+        color: #ffff;
+        padding: 12px 30px;
+        border: 1px solid green;
+        margin-right: 20px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .cancel-btn {
+        @extend .save-btn;
+        background-color: #bebebe;
+        border: 1px solid #bebebe;
+        margin-right: 0;
+      }
+    }
+    .show-transaction {
+      .deposit-main {
+        .deposit-title {
+          font-size: 14px;
+          padding: 0px 0px 10px;
+          color: #646464;
+        }
+      }
+    }
+  }
+}
